@@ -24,8 +24,8 @@ The main abstractions are special types of `RDD` called `LuceneRDD`, `FacetedLuc
 |Bbox Search| `ShapeLuceneRDD.bboxSearch(lowerLeft, upperLeft, topK)` | Bounding box |
 |Spatial Linkage| `ShapeLuceneRDD.linkByRadius(RDD[T], linkage: T => (x,y), radius, topK)` | Spatial radius linkage|
 
-Using the query parser, you can perform prefix queries, fuzzy queries, prefix queries, etc and any combination of those. 
-For more information on using Lucene's query parser, see [Query Parser](https://lucene.apache.org/core/5_5_0/queryparser/org/apache/lucene/queryparser/classic/QueryParser.html). 
+Using the query parser, you can perform prefix queries, fuzzy queries, prefix queries, etc and any combination of those.
+For more information on using Lucene's query parser, see [Query Parser](https://lucene.apache.org/core/5_5_0/queryparser/org/apache/lucene/queryparser/classic/QueryParser.html).
 
 ### [Examples](https://github.com/zouzias/spark-lucenerdd-examples)
 
@@ -101,7 +101,7 @@ A docker compose script is setup with some preliminary notebook in Zeppelin, run
 docker-compose up
 ```
 
-For more LuceneRDD examples on Zeppelin, check these [examples](https://github.com/zouzias/spark-lucenerdd-examples) 
+For more LuceneRDD examples on Zeppelin, check these [examples](https://github.com/zouzias/spark-lucenerdd-examples)
 ### Build from Source
 
 Install Java, [SBT](http://www.scala-sbt.org) and clone the project
